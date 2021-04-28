@@ -7,6 +7,7 @@ package manejoclases03;
 
 public class Ejecutable {
     public static void main(String[] args) {
+       
         // Se crea un objeto
         Computadora computadoraPersonal = new Computadora();
         

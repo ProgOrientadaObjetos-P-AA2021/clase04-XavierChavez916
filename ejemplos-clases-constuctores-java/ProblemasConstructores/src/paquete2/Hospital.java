@@ -61,9 +61,13 @@ public class Hospital {
     }
     @Override
     public String toString(){
-        String cadena = String.format("\tDatos del Hospital\nNombre: %s\n"
-                + "Ciudad: %s\nNumero de Doctores: %d\n"
-                + "Numero de enfermeros: %d\n", obtenerNombre(), 
+        String cadena = String.format("------------*-*------------\n"
+                + "\tDatos del Hospital\n"
+                + "Nombre: %s\n"
+                + "Ciudad: %s\n"
+                + "Numero de Doctores: %d\n"
+                + "Numero de enfermeros: %d\n------------*-*------------\n", 
+                obtenerNombre(), 
                 obtenerCiudad(), obtenerNumeroDoctores(), 
                 obtenerNumeroEnfermeros());
         return cadena;

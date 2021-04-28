@@ -18,7 +18,6 @@ public class Ejecutor {
         Ingresar la información por teclado.
         */
         
-        
         System.out.println("Ingresar el nombre del hospital");
         String nom = entrada.nextLine();
         System.out.println("Ingrese la ciudad en donde esta el hospital");
@@ -30,10 +29,6 @@ public class Ejecutor {
         
         Hospital hosp = new Hospital(nom, ciudad, numDoc, numEnfe);
         System.out.printf("%s\n", hosp);
-        
-        
-        
-        
-        
+    
     }
 }

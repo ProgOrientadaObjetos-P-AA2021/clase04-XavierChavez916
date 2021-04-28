@@ -20,15 +20,15 @@ public class Ejecutor {
         
         
         System.out.println("Ingresar el nombre del hospital");
-        String nombre = entrada.nextLine();
-        System.out.println("Ingrese la ciudad");
+        String nom = entrada.nextLine();
+        System.out.println("Ingrese la ciudad en donde esta el hospital");
         String ciudad = entrada.nextLine();
-        System.out.println("Ingrese el numero de Doctores");
+        System.out.println("Ingrese el numero de Doctores del hospital");
         int numDoc = entrada.nextInt();
-        System.out.println("Ingrese el numero de Enfermeros");
-        int numEnf = entrada.nextInt();
+        System.out.println("Ingrese el numero de Enfermeros del hospital");
+        int numEnfe = entrada.nextInt();
         
-        Hospital hosp = new Hospital(nombre, ciudad, numDoc, numEnf);
+        Hospital hosp = new Hospital(nom, ciudad, numDoc, numEnfe);
         System.out.printf("%s\n", hosp);
         
         
